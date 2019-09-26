@@ -28,12 +28,12 @@ export GOPATH=$GOPATH:"`pwd`"
 ```
 * Under the Go Workspace directory create a source directory
 ```
-mkdir -p src/github.com/dimaskiddo/go-whatsapp-rest
+mkdir -p src/github.com/xtwoend/whatsapp-rest
 ```
 * Move to the created directory and pull codebase
 ```
-cd src/github.com/dimaskiddo/go-whatsapp-rest
-git clone -b master https://github.com/dimaskiddo/go-whatsapp-rest.git .
+cd src/github.com/xtwoend/whatsapp-rest
+git clone -b master https://github.com/xtwoend/whatsapp-rest.git .
 ```
 * Run following command to pull dependecies package
 ```
