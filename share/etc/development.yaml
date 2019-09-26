@@ -1,0 +1,18 @@
+## Server Configuration
+SERVER_NAME: "go-whatsapp-rest"
+SERVER_IP: "127.0.0.1"
+SERVER_PORT: "3000"
+SERVER_STORE_PATH: "./share/store"
+SERVER_UPLOAD_PATH: "./share/upload"
+SERVER_UPLOAD_LIMIT: 8
+SERVER_LOG_LEVEL: "debug"
+
+## Router Configuration
+ROUTER_BASE_PATH: "/api/v1/whatsapp"
+
+## Cryptography Configuration
+CRYPT_PRIVATE_KEY_FILE: "./share/private.key"
+CRYPT_PUBLIC_KEY_FILE: "./share/public.key"
+
+#BASIC AUTH
+AUTH_BASIC_PASSWORD: "29bca9f62e4af2306bcf9bc406ade0c4"
